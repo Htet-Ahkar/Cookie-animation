@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 54, 61, 0.781);
+}
+
+.card-container {
+  background: linear-gradient(265deg, #9b6c50 0%, #4f2626 100%);
+  width: 30rem;
+  height: 15rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  display: flex;
+  gap: 4rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+
+.animated-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+  overflow: hidden;
+}
+
+.animated-image-container #chunks {
+  z-index: 100;
+}
+
+.content-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container h2 {
+  font-weight: lighter;
+}
+
+.content-container h3 {
+  font-weight: lighter;
+}
+
+.content-container p {
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.btn {
+  box-shadow: none;
+  margin-top: 1rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  color: #50382a;
+  background-color: white;
+  cursor: pointer;
+}
